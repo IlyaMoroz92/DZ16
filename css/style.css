@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    border: 2px solid black;
+    width: 250px;
+}
+
+.cl {
+    color: red;
+}
+
+.tr {
+    margin: 100px;
+}
