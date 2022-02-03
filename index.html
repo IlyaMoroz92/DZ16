@@ -44,7 +44,7 @@
         .then((response) => response.json()) 
         .then(function aaa(json) {  
         for( let j=0; j<json.length; j++) {
-        createTr(`${json[j].Date.slice(0,10)}: 1 RUS `, `${json[j].Cur_OfficialRate} BYN`)
+        createTr(`${json[j].Date.slice(0,10)}: 100 RUS `, `${json[j].Cur_OfficialRate} BYN`)
         }
         })
     }
