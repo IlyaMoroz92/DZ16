@@ -15,3 +15,8 @@ div {
 .tr {
     margin: 100px;
 }
+
+canvas {
+    width:200px;
+    height: 200px;
+}
